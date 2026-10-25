@@ -16,7 +16,7 @@ The aim of this project is to develop computational models that estimate formald
 - **Data auditing and preparation:** Examines and prepares environmental sensor data for modelling.
 - **Data splitting:** Separates observations into training and validation sets.
 - **Neural network modelling:** Uses a multilayer perceptron to learn relationships between environmental variables and formaldehyde concentration.
-- **Model evaluation:** Evaluates predictions using mean absolute error (MAE), root mean squared error (RMSE), and the coefficient of determination (\(R^2\)).
+- **Model evaluation:** Evaluates predictions using mean absolute error (MAE), root mean squared error (RMSE), and the coefficient of determination (R^2).
 - **Data reconstruction:** Produces estimated formaldehyde concentrations using the trained model.
 
 ## Input Data
