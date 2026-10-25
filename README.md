@@ -89,8 +89,22 @@ cd MMA3001-Project-Marcus
 
 
 ### 2. Prepare the dataset
+This is what was used to setup colab to use the data 
 
-Place the supplied environmental sensor dataset in the expected `data/` directory. The raw dataset is not automatically downloaded by the source files.
+# Creating folders
+!mkdir -p src data tests docs
+!touch src/.gitkeep tests/.gitkeep docs/.gitkeep
+!echo "data/*" >> .gitignore
+# Obtain data from google drive
+from google.colab import drive
+drive.mount("/content/drive")
+!cp "/content/drive/MyDrive/MMA3001 project/5EnvSensor_MayToDec2024_180kRows.zip" /content/MMA3001-Project-Marcus/data/
+!ls -lh /content/MMA3001-Project-Marcus/data
+# Unzipping files in data
+%cd /content/MMA3001-Project-Marcus/data
+!unzip -o "5EnvSensor_MayToDec2024_180kRows.zip"
+%cd /content/MMA3001-Project-Marcus
+!ls -lh data
 
 ### 3. Audit and prepare the data
 
