@@ -90,11 +90,7 @@ This is what was used to setup colab. A copy of the data was saved to a personal
 If another method is used, ensure the data files are unzipped and saved within a folder named data.
 
 ```
-!mkdir MMA3001-Project-Marcus
 %cd MMA3001-Project-Marcus
-!git init -b main
-!mkdir -p src data tests docs
-!touch src/.gitkeep tests/.gitkeep docs/.gitkeep
 !mkdir -p data
 from google.colab import drive
 drive.mount("/content/drive")
