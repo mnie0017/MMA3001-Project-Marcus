@@ -1,0 +1,7 @@
+Metric,Value
+MAE,5.068353617566956
+RMSE,7.0877873031886685
+R²,0.6850988419026237
+Bias (prediction - actual),0.04594446757295642
+Training time (s),31.0976487129999
+Validation prediction time (s),0.004897067999991123
