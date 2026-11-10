@@ -230,14 +230,6 @@ print(
     )
 )
 
-# Plain-language interpretation of the bias sign for quick reading
-# in the console output (doesn't affect the saved metrics).
-if bias > 0:
-    print("\nThe model tends to OVERestimate formaldehyde.")
-elif bias < 0:
-    print("\nThe model tends to UNDERestimate formaldehyde.")
-else:
-    print("\nThe model has approximately zero mean bias.")
 
 # Persist the metrics table to disk for later reference/reporting.
 metrics.to_csv(RESULTS_DIR / "validation_metrics.csv", index=False)
