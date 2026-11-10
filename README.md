@@ -103,6 +103,7 @@ drive.mount("/content/drive")
 ```
 
 ### 3. Audit and prepare the data
+In order to run the following files, use %run file path. The file path can be found by clicking the 3 dots at the file and clicking copy path.
 
 Run `Auditing.py` to perform the required data auditing and preparation.
 
