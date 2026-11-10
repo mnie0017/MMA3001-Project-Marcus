@@ -191,7 +191,6 @@ def load_and_clean_data(
         "Particulate matter 2.5 (µg/m3)",
     ]
 
-    print("\n=== PHYSICAL LIMITS AUDIT ===")
 
     # For each expected measurement column (if present), coerce to
     # numeric and report its min, max, and how many negative values
